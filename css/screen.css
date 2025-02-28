@@ -4,12 +4,17 @@ html {
   padding: 1.182em;
   text-rendering: optimizeLegibility;
   font-family: 'Playfair Display', 'Georgia', serif;
+  text-align: center;
 }
 
 main#content {
   padding: 1em;
   max-width: 480px;
   margin: 0 auto;
+}
+
+form {
+  text-align: center;
 }
 
 form h1 {
@@ -19,11 +24,16 @@ form h1 {
 
 form p {
   margin-bottom: 1em;
-  color: #444; 
+  color: #444;
+}
+
+form ol {
+  padding-left: 0;
 }
 
 form ol li {
   margin-bottom: 1.5em;
+  list-style: none;
 }
 
 label {
@@ -38,10 +48,11 @@ input[type="password"],
 textarea {
   width: 100%;
   padding: 0.75em;
-  background-color: #E0E0E0; 
-  border: 1px solid #B0B0B0; 
+  background-color: #E0E0E0;
+  border: 1px solid #B0B0B0;
   border-radius: 4px;
   font-size: 1em;
+  text-align: center;
   transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
@@ -49,7 +60,7 @@ input[type="email"]:focus,
 input[type="text"]:focus,
 input[type="password"]:focus,
 textarea:focus {
-  background-color: #F0F0F0; 
-  border-color: #888; 
+  background-color: #F0F0F0;
+  border-color: #888;
   outline: none;
 }
