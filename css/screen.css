@@ -1,8 +1,25 @@
-/* Base font-size, grid and spacing settings */
 html {
   font-size: 1.375em; /* 22px */
   line-height: 1.182em;
   padding: 1.182em;
   text-rendering: optimizeLegibility;
   font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+}
+
+
+main#content {
+  padding: 1em;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+
+form h1 {
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
+}
+
+form p {
+  margin-bottom: 1em;
+  color: #555;
 }
